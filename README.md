@@ -1,3 +1,3 @@
 # codility
 
-solution of codility's lessons
+solutions of codility's lessons
