@@ -3,11 +3,12 @@
 
 
 int main(){
-	int N=30,a,b,s;
+	int N=30,a,s;
 	int min=pow(10,6);
+	float b;
 	
 	for (a=1;a<=N;a++){
-		b=N/a;
+		b=(float)N/a;
 		if ((int)b==b){
 			s=a+b;
 			if (s<min) min=s;
